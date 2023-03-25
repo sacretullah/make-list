@@ -1,38 +1,78 @@
 .App {
-  text-align: center;
+  background: #bdcdd6;
+  margin: 0 auto;
+  width: 75%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background: #bdcdd6;
+}
+input[type="checkbox"]:checked + label.strikethrough {
+  text-decoration: line-through;
+}
+input[type="checkbox"] {
+  width: 26px;
+  height: 24px;
+  clip-path: circle(40% at 50% 50%);
+  margin-top: 5%;
+  margin-left: 3%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.strikethrough {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  margin-left: 40px;
+  margin-top: 24px;
+  width: 100px;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  color: #130e0e;
+}
+#div-box {
+  width: 451px;
+  height: 70px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: auto;
+  margin-top: 13px;
+  margin-left: 449px;
+  background: #eee9da;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input1 {
+  width: 451px;
+  height: 48px;
+  margin-left: 448px;
+  margin-top: 26px;
+
+  background: #eee9da;
+}
+.icon {
+  width: 25px;
+  height: 22px;
+  margin-bottom: 2rem;
+}
+.butoncancel {
+  background: none;
+  border: none;
+  margin-left: 67%;
+  padding-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+h2 {
+  width: 122px;
+  height: 49px;
+  padding-left: 602px;
+  margin-top: 135px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+
+  text-align: center;
+
+  color: #6096b4;
 }
